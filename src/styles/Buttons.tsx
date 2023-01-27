@@ -123,14 +123,13 @@ export const Button = styled("button", {
             color: "$socialInstagram",
           },
         },
-        ["&.facebook"]: {
-          backgroundColor: "$socialFacebook",
-          borderColor: "$socialFacebook",
+        ["&.gitHub"]: {
+          backgroundColor: "$socialGitHub",
+          borderColor: "$socialGitHub",
           color: "$whiteFixed",
           "&:hover": {
             backgroundColor: "transparent",
-            borderColor: "$socialFacebook",
-            color: "$socialFacebook",
+            borderColor: "$socialGitHub",
           },
         },
         ["&.linkedin"]: {

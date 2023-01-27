@@ -47,7 +47,7 @@ export const Home = (): JSX.Element => {
               <Text color="grey4">Hello, my name is {userData.nameUser}</Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-            I{" "}
+              I{" "}
               <Text as="span" type="heading1" color="brand1">
                 love
               </Text>{" "}
@@ -57,9 +57,22 @@ export const Home = (): JSX.Element => {
               </Text>{" "}
               projects
             </Text>
+            
             <Text type="body1" color="grey2">
-              Discover here in this environment, created especially for you, all
-              my projects and technologies
+              I've always been in contact with technology. Since I was 13 years
+              old, I started exploring this area through courses such as
+              Integrated Environment for Information Technology, Assembly and
+              Maintenance of Computers and Networks. This allowed me to become
+              very familiar with the subject, but I never had contact with
+              programming until I was 19 years old. <br />
+              <br /> It was at this age that I began to take more interest in
+              software development, especially for the opportunity to understand
+              more deeply how it works and how we can impact the world through
+              it. It was then that, after research, I came across Kenzie Academy
+              Brazil and fell in love with the area. <br />
+              <br />
+              Currently, I am specializing in Full Stack Development, as my goal
+              is to be updated in both fronts (Front-end or Back-end).
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">

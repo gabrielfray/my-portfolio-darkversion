@@ -4,6 +4,7 @@ import { Footer as FooterWrapper } from "./style";
 import { UserImage } from "@/pages/home/style";
 import { userData } from "@/utils/userData";
 import { FaLinkedinIn, FaInstagram, FaFacebookF } from "react-icons/fa";
+import { AiFillGithub } from "react-icons/ai";
 import { Button } from "@/styles/Buttons";
 // import { HandEffect } from "../HandEffect";
 
@@ -45,13 +46,13 @@ export const Footer = (): JSX.Element => {
             <FaInstagram />
           </Button>
           <Button
-            className="facebook"
+            className="gitHub"
             type="circle"
             as="a"
             target="_blank"
-            href={`https://fb.com/${userData.facebookUser}`}
+            href={`https://github.com/${userData.githubUser}`}
           >
-            <FaFacebookF />
+            <AiFillGithub />
           </Button>
           <Button
             className="linkedin"
